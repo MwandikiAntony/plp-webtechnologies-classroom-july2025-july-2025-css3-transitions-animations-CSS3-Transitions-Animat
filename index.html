@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animated Card Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Animated Card Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="controls">
+      <button id="animateBtn">Animate Card</button>
+      <button id="toggleLoadingBtn">Toggle Loading</button>
+    </section>
+
+    <section class="card-container">
+      <div class="card" id="card">
+        <div class="card-front">
+          <h2>Front Side</h2>
+          <p>Hover or click to flip!</p>
+        </div>
+        <div class="card-back">
+          <h2>Back Side</h2>
+          <p>This card flips with animation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="loading-section">
+      <div id="loadingSpinner" class="spinner hidden"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
